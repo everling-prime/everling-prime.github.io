@@ -8,16 +8,20 @@ published: false
 
 ## Introduction
 
-How do we collectively understand the concept of "nerdiness"? Are there particular personality types that are "nerdy"? Which personalities are proudest to call themselves nerds? Are there components of our collective conception of nerdiness that are rooted in autistic characteristics?
+How do we collectively understand the concept of "nerdiness"? Are there particular personality types that are "nerdy"? Which are the traits of the people proudest to call themselves nerds? Are there components of our collective conception of nerdiness that are rooted in autistic characteristics?
 
 This project aims to use quantitative approaches to tackle these qualitative questions. 
 
+
+## Data
+### Nerdiness
 The [Nerdy Personality Assessment Scale](http://personality-testing.info/tests/NPAS/) is a survey freely available online that aims to quantify nerdiness. 
 
 > The Nerdy Personality Attributes Scale was developed as a project to quantify what "nerdiness" is. Nerd is a common social label in English, although there is no set list of criteria. The NPAS was developed by surveying a very large pool of personality attributes to see which ones correlated with self reported nerd status, and combining them all into a scale. The NPAS can give an estimate of how much a respondent's personality is similar to the average for those who identify as nerds versus those who do not.
 
+[Personality Testing](http://personality-testing.info/tests/NPAS/) offers an open and anonymized dataset of approximately 1500 responses to their NPAS survey, which include the data desribed below.
 
-**Here is the entire NPAS. Feel free to score yourself!**  
+#### **Here is the entire NPAS. Feel free to score yourself!**  
 Procedure: The NPAS has 26 questions. In each questions you must rate how much you agree with a given statement on a five point scale where 1=Disagree, 3=Neutral and 5=Agree.
 
 1. I sometimes prefer fictional people to real ones.					
@@ -47,17 +51,27 @@ Procedure: The NPAS has 26 questions. In each questions you must rate how much y
 1. I enjoy learning more than I need to.					
 1. I have played a lot of video games.
 
-Generally speaking, the higher your total, the more you align with statements from people who call themselves nerdy.
+Generally speaking, the higher your total, the more you align with statements from people who call themselves nerdy.  
+See here for more information on [how this scale was developed](http://personality-testing.info/tests/NPAS/development/).
 
-In addition the NPAS questions above, this site also administers an optional ten-item personality test (TIPI) based on the Big Five model of personality. This test yields a value for each of the following traits of the taker (the "big five traits"): Openness to Experience (O), Conscientiousness (C), Extraversion (E), Agreeableness (A), Neuroticism (N).  
+### Big Five Personality
+In addition the NPAS questions above, the site also administers a ten-item personality test ([TIPI](http://gosling.psy.utexas.edu/scales-weve-developed/ten-item-personality-measure-tipi/)) based on the Big Five model of personality. This test yields a value for each of the following traits of the taker (the "big five traits"): 
+- Openness to Experience (O) 
+- Conscientiousness (C) 
+- Extraversion (E)
+- Agreeableness (A) 
+- Neuroticism (N)
 
+
+
+### Demographics
 collected various demographic variables:
 
 * Age
 * etc.
 
 
-[Personality Testing](http://personality-testing.info/) offers an anonymized dataset of approximately 1500 responses to the survey.
+
 
 Data Cleaning and Transforms:
 
@@ -65,3 +79,10 @@ Data Cleaning and Transforms:
 * Tranform categorical variables to "dummy" binary variables. 
 * Calculate Big 5 personality scores based on TIPI responses.
 * 
+
+
+## Patterns in the Data
+
+
+## Modeling on the Data
+
