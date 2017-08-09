@@ -68,7 +68,19 @@ In addition the NPAS questions above, the site also administers a ten-item perso
 collected various demographic variables:
 
 * Age
-* etc.
+* Gender
+* Race
+* Years of Education
+* Urbanness as a Child
+* English Native
+* Handedness
+* Religious Category
+* Sexual Orientation
+* Voted in a natl. election in past year
+* Married
+* Number of you + any siblings growing up
+* Major in school
+* ASD: Have you ever been diagnosed with Autism Spectrum Disorder?
 
 
 
@@ -85,4 +97,3 @@ Data Cleaning and Transforms:
 
 
 ## Modeling on the Data
-
